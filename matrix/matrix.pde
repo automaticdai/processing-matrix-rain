@@ -4,8 +4,11 @@
 String[] textLines;
 ArrayList<Line> myLines = new ArrayList<Line>();
 
+int lineNumber = 300;
+
 void setup() {
   size(1920, 1080);
+  frameRate(60);
     
   textLines = loadStrings("text.txt");
   println("there are " + textLines.length + " lines");
@@ -14,13 +17,15 @@ void setup() {
   }
   
   background(0);
-  for (int i = 0; i < 500; i++){
+  for (int i = 0; i < lineNumber; i++){
     Line a = new Line(textLines[int(random(textLines.length))], random(width), random(height));
     a.draw();
     myLines.add(a);
   }
   
-  
+  // load font
+  PFont font = createFont("yahei.ttf", 16);
+  textFont(font, 16);
 }
 
 

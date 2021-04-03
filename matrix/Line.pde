@@ -71,8 +71,8 @@ public class Line{
   
   public void update(){
     y = y + speed;
-    if (y > height + 100) {
-      y = -100;
+    if (y > height + text_size*text_str.length() + 50) {
+      y = -text_size*text_str.length()-50;
       x = random(width);
     }
   }

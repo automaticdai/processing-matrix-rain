@@ -39,7 +39,7 @@ int count = 0;
 void draw() {
   background(0);
   
-  int timer = 10 * FPS; // timer is the countdown before the rotation starts
+  int timer = 22 * FPS; // timer is the countdown before the rotation starts
   rotateY(PI/20 * sin(max(count-timer, 0) / 500.0));  
   rotateX(PI/12 * sin(max(count-timer, 0) / 1000.0));
   count++;

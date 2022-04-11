@@ -1,8 +1,13 @@
 # processing-matrix-rain
-Matrix rain animation. Inspired by the Matrix movie. The Chinese characters is from Tao Te Ching.
+Matrix rain animation. Inspired by the Matrix movie. The Chinese characters are from Tao Te Ching.
 
-Created with Processing.
+Created with Processing: https://processing.org/
 
-Video demo: https://www.bilibili.com/video/BV1pp4y187ib
+Demo video: 
+- YouTube: https://youtu.be/x2V7rHLOMbc
+- Bilibili: https://www.bilibili.com/video/BV1pp4y187ib
 
 ![cover](cover.png)
+
+## License
+MIT License
